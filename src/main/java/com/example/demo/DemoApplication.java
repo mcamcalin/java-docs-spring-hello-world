@@ -17,4 +17,9 @@ public class DemoApplication {
 	String sayHello() {
 		return "Hello World!";
 	}
+	
+	@RequestMapping("/hello")
+	String sayHelloToAzure() {
+		return "Hello Azure!";
+	}
 }
